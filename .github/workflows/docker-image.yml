@@ -28,4 +28,4 @@ jobs:
       run: |
         docker build . -t docker-php-docker
         docker tag nbomasi/docker-php-docker:latest public.ecr.aws/q1x5a3x3/nbomasi/docker-php-docker:latest
-        docker push public.ecr.aws/q1x5a3x3/nbomasi/docker-php-docker:latest
+        docker push public.ecr.aws/q1x5a3x3/docker-php-docker:latest
