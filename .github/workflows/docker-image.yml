@@ -27,5 +27,5 @@ jobs:
     - name: Build, tag, and push the Docker image
       run: |
         docker build . -t nbomasi/docker-php-docker
-        docker tag nbomasi/continuous_php_image:latest public.ecr.aws/q1x5a3x3/nbomasi/docker-php-docker:latest
+        docker tag nbomasi/docker-php-docker:latest public.ecr.aws/q1x5a3x3/nbomasi/docker-php-docker:latest
         docker push public.ecr.aws/q1x5a3x3/nbomasi/docker-php-docker:latest
